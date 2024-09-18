@@ -1,0 +1,23 @@
+# Ignore Python bytecode files
+*.pyc
+__pycache__/
+
+# Ignore environment and virtual environment directories
+venv/
+env/
+.venv/
+
+# Ignore IDE or editor-specific files
+.vscode/
+.idea/
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore any other sensitive or generated files
+*.log
+*.tmp
+
+# Ignore the license file if you prefer to manage it separately
+LICENSE
