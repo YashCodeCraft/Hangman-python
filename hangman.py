@@ -1,4 +1,4 @@
-from Scorecard_Unsupervised import words
+from hangman_words import words
 import random
 import string
 def is_valid_number(words): # 2. list
