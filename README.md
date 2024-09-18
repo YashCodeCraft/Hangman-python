@@ -22,8 +22,8 @@ To run this Hangman game, you'll need to have Python installed on your system. Y
 2. **Install dependencies** (if any):
     - For this script, no external packages are required other than the standard Python library.
 
-3. **Create the `list_of_words` module**:
-    - Ensure you have a file named `list_of_words` in the same directory as your game script.
+3. **Create the `list of words` module**:
+    - Ensure you have a file named `list of words` in the same directory as your game script.
     - The `list_of_words` file should contain a list of words. For example:
       
       ```python
@@ -34,7 +34,7 @@ To run this Hangman game, you'll need to have Python installed on your system. Y
 
 1. **Run the game**:
     ```bash
-    python main.py
+    python hangman.py
     ```
     - The game will start, and you will be prompted to guess letters. You have 6 lives to guess the word correctly.
 
