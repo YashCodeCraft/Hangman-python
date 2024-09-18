@@ -15,16 +15,17 @@ To run this Hangman game, you'll need to have Python installed on your system. Y
 
 1. **Clone the repository** (if applicable):
     ```bash
-    git clone <repository_url>
-    cd <repository_directory>
+    git clone https://github.com/YashCodeCraft/Hangman-python.git
+    cd Hangman-python
     ```
 
 2. **Install dependencies** (if any):
     - For this script, no external packages are required other than the standard Python library.
 
-3. **Create the `hangman_words` module**:
-    - Ensure you have a file named `hangman_words.py` in the same directory as your game script.
-    - The `hangman_words.py` file should contain a list of words. For example:
+3. **Create the `list_of_words` module**:
+    - Ensure you have a file named `list_of_words` in the same directory as your game script.
+    - The `list_of_words` file should contain a list of words. For example:
+      
       ```python
       words = ["PYTHON", "DEVELOPER", "HANGMAN", "GAME"]
       ```
@@ -33,7 +34,7 @@ To run this Hangman game, you'll need to have Python installed on your system. Y
 
 1. **Run the game**:
     ```bash
-    python hangman.py
+    python main.py
     ```
     - The game will start, and you will be prompted to guess letters. You have 6 lives to guess the word correctly.
 
@@ -53,10 +54,6 @@ Here's a brief overview of the main components of the code:
 
 - **`hangman_words.py`**: This file contains the list of words used in the game. Make sure it is present in the same directory as the main game script.
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
----
 
-Feel free to contribute to the project by submitting pull requests or opening issues if you encounter any problems.
